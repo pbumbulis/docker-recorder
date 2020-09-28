@@ -3,7 +3,7 @@ CFLAGS += -g
 INSTALLDIR = /usr
 
 # Do you want support for MQTT?
-WITH_MQTT ?= yes
+WITH_MQTT ?= no
 
 # Do you want recorder's built-in HTTP REST API?
 WITH_HTTP ?= yes
